@@ -1,26 +1,11 @@
-.navbar{
-    padding:.8rem;
-    background: rgb(6, 56, 6) 
+.color1 {
+   color: rgb(247, 55, 55) !important;
 }
 
-.navbar-nav li{
-    padding-right:20px;
-   
-}
-.nav-link{
-    font-size:1.1em;
-    color:rgb(247, 55, 55) !important;
-    
-    
+.color2 {
+    background: rgb(6, 56, 6) !important;
 }
 
-
-.carousel-caption h1{
-    font-size: 500%;
-    text-shadow: 1px 1px 15px #000;
-}
-
-.btn{
-    background-color: rgb(12, 117, 12); 
-    color:white; 
+.color3 {
+    color: rgb(6, 56, 6) !important;
 }
