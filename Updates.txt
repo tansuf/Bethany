@@ -5,3 +5,14 @@ I changed navbar brand to something more related to law
 I organized all files into folders
 
 I updated fontawesome source from 4 to 5.2.0
+
+
+Ike is the managing partner, head of the firm.
+
+Joseph is a lawyer, will send his full name later.
+
+Chioma Oyehara is also a lawyer with the firm.
+
+Monica Ekeh is and admin staff, and PA to Ike.
+
+Robina is also an admin staff, in charge of front desk. Will get her full name later
