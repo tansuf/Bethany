@@ -1,19 +1,7 @@
 #Yung_Prof
 
-I changed the navbar completely, something was wrong with the responsiveness
+I changed navbar brand to something more related to law
 
-I changed style.css too
+I organized all files into folders
 
-I typed in all the practices and linked them accordingly in the cards, index and their individual pages.
-
-I added fontawesome webfonts and css
-
-I added bootstrap popper.js for tooltip
-
-I created a javascript file for the tooltip
-
-Let me know if there's anything else I should do. I think now I've exhausted all the materials provided.
-
-
-
-The current colour scheme makes our navbar very ugly, I suggest you review that Sir 
+I updated fontawesome source from 4 to 5.2.0
