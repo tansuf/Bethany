@@ -123,3 +123,17 @@ hr .light-100{
     }
     
     }    
+
+.bg-footer {
+    background-color: #3b5998;
+}
+
+.glow-0:active, .glow-0:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.fab {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
