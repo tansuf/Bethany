@@ -132,3 +132,8 @@ hr .light-100{
     outline: none !important;
     box-shadow: none !important;
 }
+
+.fab {
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
