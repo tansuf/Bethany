@@ -16,3 +16,11 @@ Chioma Oyehara is also a lawyer with the firm.
 Monica Ekeh is and admin staff, and PA to Ike.
 
 Robina is also an admin staff, in charge of front desk. Will get her full name later
+
+6/11/2018:
+ 1. I removed some folders and took the files to the roots and made appropriate link changes
+ 2. Changed all files to php.
+ 3. Please check all links I might have missed and fix, for both pages and images.
+ 4. Remember the image changes to black and white and the new logo.
+ 5.The single bio pages for team members shouldn't have the team picture please.
+ 6. I have ssent him a mail for contents for other practice areas  

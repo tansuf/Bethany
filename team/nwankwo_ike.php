@@ -4,73 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../../assets/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="../../assets/css/animate.min.css">
-    <link rel="stylesheet" href="../../assets/css/all.css">
-    <link rel="stylesheet" href="../../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
-    <title>Bethany Law & Partners | Home</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Bethany Law & Partners | Practice</title>
 </head>
 <body>
 
-      <!--navigation-->
-      <nav class="navbar fixed-top navbar-expand-lg navbar-light color2">
-        <a class="navbar-brand" href="index.html">
-          <i class="fa fa-balance-scale fa-2x color1"></i>
-          <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
+    <nav class="navbar navbar-expand-lg navbar-light color2 fixed-top">
+        <a class="navbar-brand" href="../index.php">
+            <i class="fa fa-balance-scale fa-2x color1"></i>
+            <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
         </button>
-      
+        
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-3 active">
-              <a class="nav-link lead color1" href="../../index.html">Home</a>
+                <a class="nav-link lead color1" href="../index.php">Home</a>
             </li>
             <li class="nav-item mx-3 dropdown">
               <a class="nav-link lead color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Team
               </a>
               <div class="dropdown-menu color2">
-                <a class="dropdown-item color1" href="../administration.html">Administration</a>
+                <a class="dropdown-item color1" href="../team/administration.php">Administration</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item color1" href="../counsel.html">Counsel</a>
+                <a class="dropdown-item color1" href="../team/counsel.php">Counsel</a>
               </div>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link lead color1" href="#">Careers</a>
+                <a class="nav-link lead color1" href="#">Careers</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link lead color1" href="#">About Us</a>
+                <a class="nav-link lead color1" href="../about.php">About Us</a>
             </li>
             <li class="nav-item mx-3 dropdown">
-              <a class="nav-link lead color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link lead color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Practice
-              </a>
-              <div class="dropdown-menu color2">
-                <a class="dropdown-item color1" href="../../practices/commercial_and_corporate_practice.html">Commercial and Corporate Practice</a>
+                </a>
+                <div class="dropdown-menu color2">
+                <a class="dropdown-item color1" href="commercial_and_corporate_practice.php">Commercial and Corporate Practice</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item color1" href="../../practices/general_civil_litigation.html">General Civil Litigation</a>
+                <a class="dropdown-item color1" href="general_civil_litigation.php">General Civil Litigation</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item color1" href="../../practices/immigration_consultancy_services.html">Immigration Consultancy Services</a>
+                <a class="dropdown-item color1" href="immigration_consultancy_services.php">Immigration Consultancy Services</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item color1" href="../../practices/intellectual_property.html">Intellectual Property</a>
+                <a class="dropdown-item color1" href="intellectual_property.php">Intellectual Property</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item color1" href="../../practices/maritime_and_admiralty_services.html">Maritime and Admiralty Services</a>
-              </div>
+                <a class="dropdown-item color1" href="maritime_and_admiralty_services.php">Maritime and Admiralty Services</a>
+                </div>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link lead color1" href="#" data-toggle="tooltip" data-placement="top" title="News and Publications">Blog</a>
+                <a class="nav-link lead color1" href="#" data-toggle="tooltip" data-placement="top" title="News and Publications">Blog</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link lead color1" href="#">Contact Us</a>
+                <a class="nav-link lead color1" href="#">Contact Us</a>
             </li>
-          </ul>
+            </ul>
         </div>
-      </nav>
-      <!-- End nav -->
+    </nav>
+        <!-- End nav -->
 
       <!-- Team -->
       <br>
@@ -85,7 +84,7 @@
                         <ol class="breadcrumb ml-1">
                             <li class="breadcrumb-item"><a href="#">Our Team</a></li>
                             <li class="breadcrumb-item"><a href="../counsel.html">Counsel</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Joseph</li>
+                            <li class="breadcrumb-item active" aria-current="page">Nwakwuo Ike</li>
                         </ol>
                     </nav>
                 </div>
@@ -98,7 +97,7 @@
                         <div class="card-body pt-1">
                             <div class="row mb-3">
                                 <div class="col-md-12 bg-success px-0">
-                                    <img src="../../assets/img/people/joseph4.jpg" alt="" class="img-fluid">
+                                    <img src="../../assets/img/people/ike2.jpg" alt="" class="img-fluid">
                                 </div>
                                 <!--  -->
                                 <!-- <div class="col-md-8 align-middle">
@@ -248,12 +247,12 @@
                     </div>
                     <div class="row align-middle mt-4">
                         <div class="col-md-3 offset-md-1 px-0">
-                            <img src="../../assets/img/people/IkeNwankwuo.jpg" alt="" class="rounded-circle img-fluid">
+                            <img src="../../assets/img/people/JosephLawyer.jpg" alt="" class="rounded-circle img-fluid">
                         </div>
                         <div class="col-md-8">
-                            <h4 class="font-weight-bold mt-2 mb-0">Nwankwo Ike</h4>
-                            <p class="my-0">Managing Partner<br>
-                                <a href="nwankwo_ike.html" class="text-info">View Full Bio</a>
+                            <h4 class="font-weight-bold mt-2 mb-0">Joseph</h4>
+                            <p class="my-0">Lawyer<br>
+                                <a href="joseph.html" class="text-info">View Full Bio</a>
                             </p>
                         </div>
                     </div>
@@ -274,24 +273,24 @@
       
       <!-- End team -->
 
-      <!-- Social media links start -->
-      <div>
+  <!-- Social media links  -->
+  <div>
         <hr class="my-4">
       </div>
-        <div class="container-fluid padding mt-4">
-          <div class="row text-center padding">
-              <div class="col-12 mt-4">
-                <h2>Connect</h2>
-              </div>
-              <div class="col-12 social padding mt-4">
-                <a href="#"><i class="fab fa-facebook"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-              </div>
+          <div class="container-fluid padding mt-4">
+            <div class="row text-center padding">
+               <div class="col-12 mt-4">
+                  <h2>Connect</h2>
+               </div>
+               <div class="col-12 social padding mt-4">
+                 <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div>
+            </div>
           </div>
-        </div>
-        <!-- Social media links end here -->
+      <!-- Social media links end here -->
 
        <!--Footer-->
        <footer id="foota">
@@ -329,16 +328,12 @@
          </div>
        </footer>  
 
-      <script src="../../assets/js/jquery-3.3.1.js"></script>
-      <script src="../../assets/js/jquery-ui.min.js"></script>
-      <script src="../../assets/js/popper.min.js"></script>
-      <script src="../../assets/js/bootstrap.js"></script>
-      <script src="../../assets/js/wow.min.js"></script>
-      <script src="../../assets/js/main.js"></script>
-
-      <script >
-        new   WOW().init();
-       </script>
+   
+      <script src="../assets/js/jquery-3.3.1.js"></script>
+      <script src="../assets/js/jquery-ui.min.js"></script>
+      <script src="../assets/js/popper.min.js"></script>
+      <script src="../assets/js/bootstrap.js"></script>
+      <script src="../assets/js/main.js"></script>
 
     <script>
 
@@ -350,16 +345,10 @@
 
             $('#datepicker').datepicker();
 
-            $('.glow-0').click(function() {
-                $(this).toggleClass("color2");
-                $('.glow-0').not(this).removeClass("color2");
-                $(this).children().addClass("fa-angle-down").toggleClass("fa-angle-right");
-                $('.glow-0').not(this).children().addClass("fa-angle-right").removeClass("fa-angle-down");
-            });
-
         })
     
     </script>
     
 </body>
 </html>
+     

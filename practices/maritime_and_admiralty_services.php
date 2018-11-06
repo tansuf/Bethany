@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="../assets/css/animate.min.css">
-    <link rel="stylesheet" href="../assets/css/all.css">
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Bethany Law & Partners | Practice</title>
 </head>
 <body>
@@ -75,32 +75,42 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="card bg-dark text-white">
-                    <img class="card-img" src="../assets/img/Gavel-and-Scale.jpg" alt="Card image">
+                    <img class="card-img" src="../img/shipping2.jpg" alt="Card image">
                     <div class="card-img-overlay">
                         <br><br><br><br><br><br>
-                        <h5 class="card-title display-4 text-center text-white">General Civil Litigation</h5>
+                        <h5 class="card-title display-4 text-center text-white">Maritime and Admiralty Services</h5>
                     </div>
                 </div>
             </div>
             <div class="row mt-4">
                 <div class="col-md-8 mt-4">
-                    <h2 class="font-weight-bold mb-4">General Civil Litigation</h2>
-                    <p class="lead text-justify">Keeping in mind that disputes between individuals, firms or companies can occur in a variety 
-                        of different circumstances, Bethany Law & Partners represents parties in a wide variety of Civil and 
-                        Criminal litigations and complex business matters at both the Trial Courts and Appellate Courts. It is 
-                        not uncommon for individuals or businesses to find themselves involved in a legal dispute with another 
-                        party. Disputes of this nature, such as a breach of contract, typically fall under what is known as civil 
-                        litigation which entails the use of Courts of Artbitration/Mediation for adjuciation. <br><br>
-                        Our areas of expertise includes commercial disputes arising out of national and transnational transactions, 
-                        Environmental Law Claims, Contract Disputes, disputes involving Estate and Inheritance Claims, Accident Claims, 
-                        Professional Negligence and matters involving the enforcement of Fundamental Human Rights in Nigeria. <br><br>
-                        In addition to cases handled in both Trial and Appellate Courts, Bethany Law & Partners represent businesses 
-                        and individuals Alternative Dispute Resolution Forum such as Mediations and Arbitrations. <br><br>
-                        Our civil litigation department is closely tied with our Personal Injury Department which provides a wealth 
-                        of experience and knowledge to help regardless of the size or nature of the action. We aim to provide 
-                        the best possible outcome for our clients by conducting in-depth investigations and research into the 
-                        prospects or otherwise a case before proceeding to reduce time and expense. Our swat analysis enables us 
-                        to achieve the best judgement for our client before proceeding to court.
+                    <h2 class="font-weight-bold mb-4">Maritime and Admiralty Services</h2>
+                    <p class="lead text-justify">Considering the various international laws and regulations, including 
+                        the local legislations, the maritime industry can be a challenge to navigate. Bethany Law 
+                        & Partners' maritime team is experienced in sorting out complex issues and getting things 
+                        done for our clients. Our lawyers find financing, regulatory compliance, vessel sales, 
+                        bareboat charters, maritime litigation, and environmental pollution defense. Our clients 
+                        include a broad range of vessel owners, operators and managers, government contractors, 
+                        maritime terminal operators, shipyards, logistics providers, marine equipment suppliers, 
+                        port authorities, financial institutions, businesses that charter vessels, and others 
+                        engaged in the provision or purchase of maritime transportation services. <br><br>
+                        At Bethany Law & Partners, we provide maritime and admiralty legal services in the following areas:
+                        <ul class="lead text-justify">
+                            <li>Litigation</li>
+                            <li>Government Contracts</li>
+                            <li>Finance, Leasing, and Mergers and Acquisitions</li>
+                            <li>Legislation</li>
+                            <li>International Trade</li>
+                            <li>Seafarers Registration</li>
+                            <li>Cabotage Compliance & Registration</li>
+                            <li>Flagship Registration</li>
+                            <li>Registration of Tanker Vessels</li>
+                            <li>Obtainment of Tonnage & Safe Manning Certificates</li>
+                            <li>Conversion of Vessels to Home Use</li>
+                            <li>Processing of Temporary Importation</li>
+                            <li>Vessel Arrest and Release</li>
+                            <li>Advice on Local Contract Act</li>
+                        </ul>
                     </p>
 
                 </div>
@@ -165,11 +175,11 @@
        </footer>  
 
    
-      <script src="../assets/js/jquery-3.3.1.js"></script>
-      <script src="../assets/js/jquery-ui.min.js"></script>
-      <script src="../assets/js/popper.min.js"></script>
-      <script src="../assets/js/bootstrap.js"></script>
-      <script src="../assets/js/main.js"></script>
+      <script src="../js/jquery-3.3.1.js"></script>
+      <script src="../js/jquery-ui.min.js"></script>
+      <script src="../js/popper.min.js"></script>
+      <script src="../js/bootstrap.js"></script>
+      <script src="../js/main.js"></script>
 
     <script>
 

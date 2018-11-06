@@ -4,22 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="assets/css/animate.min.css">
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Bethany Law & Partners | Home</title>
 </head>
 <body>
-
+  <div class=" container mt-4 ml-4 mb-4">
+    <div class="row ">
+      <div class="col-md-4 offset-md-1">
+        <img src="img/bethanylogo.PNG" alt="">
+      </div>
+   
+    </div>
+  </div>
       <!--navigation-->
-      <nav class="navbar navbar-expand-lg navbar-light color2 fixed-top">
-        <a class="navbar-brand" href="index.html">
-          <i class="fa fa-balance-scale fa-2x color1"></i>
-          <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
-        </a>
+      <nav class="navbar navbar-expand-lg navbar-light color2">
+        <span class="navbar-brand" >
+            <a href="#"><i class="fab fa-facebook social-links"></i></a>
+            <a href="#"><i class="fab fa-twitter social-links"></i></a>
+            <a href="#"><i class="fab fa-instagram social-links"></i></a>
+            <a href="#"><i class="fab fa-youtube social-links"></i></a>
+        </span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -27,23 +36,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-3 active">
-              <a class="nav-link lead color1" href="index.html">Home</a>
+              <a class="nav-link lead color1" href="index.php">Home</a>
             </li>
             <li class="nav-item mx-3 dropdown">
               <a class="nav-link lead color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Team
               </a>
               <div class="dropdown-menu color2">
-                <a class="dropdown-item color1" href="administration.html">Administration</a>
+                <a class="dropdown-item color1" href="team/administration.php">Administration</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item color1" href="counsel.html">Counsel</a>
+                <a class="dropdown-item color1" href="team/counsel.php">Counsel</a>
               </div>
             </li>
             <li class="nav-item mx-3">
               <a class="nav-link lead color1" href="#">Careers</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link lead color1" href="#">About Us</a>
+              <a class="nav-link lead color1" href="about.php">About Us</a>
             </li>
             <li class="nav-item mx-3 dropdown">
               <a class="nav-link lead color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -70,6 +79,7 @@
           </ul>
         </div>
       </nav>
+  
       <!-- End nav -->
 
        <!-- Slider starts here -->
@@ -91,7 +101,7 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img class="d-block w-100" src="assets/img/immigration2.jpg" alt="First slide"  height="600">
+                      <img class="d-block w-100" src="img/immigration2.jpg" alt="First slide"  height="600">
                       <div class="carousel-caption  d-md-block">
                         <h1 class="display-2">Let Our Experience be Your Guide</h1>
                         
@@ -99,7 +109,7 @@
                       </div>
                     </div>
                     <div class="carousel-item ">
-                      <img class="d-block w-100" src="assets/img/Gavel-and-Scale.jpg" alt="Second slide"  height="600">
+                      <img class="d-block w-100" src="img/Gavel-and-Scale.jpg" alt="Second slide"  height="600">
                       <div class="carousel-caption  d-md-block">
                         <h1 class="display-2 text-danger">Legal Insight. Business Instinct. </h1>
                         
@@ -107,7 +117,7 @@
                       </div>
                     </div>
                     <div class="carousel-item ">
-                      <img class="d-block w-100" src="assets/img/shipping2.jpg" alt="Third slide"  height="600">
+                      <img class="d-block w-100" src="img/shipping2.jpg" alt="Third slide"  height="600">
                       <div class="carousel-caption  d-md-block">
                         <h1 class="display-2 text-white"> Industry focused. </h1>
                         
@@ -115,7 +125,7 @@
                       </div>
                     </div>
                     <div class="carousel-item ">
-                      <img class="d-block w-100" src="assets/img/business.jpg" alt="Third slide"  height="600">
+                      <img class="d-block w-100" src="img/business.jpg" alt="Third slide"  height="600">
                       <div class="carousel-caption  d-md-block">
                         <h1 class="display-2 text-warning"> Relationship driven. </h1>
                         
@@ -166,7 +176,7 @@
           </div>
     </div>
     <div class="col-md-12 col-lg-6">
-      <img src="assets/img/law+office.jpg" alt="" height="600" class="img-fluid">
+      <img src="img/law+office.jpg" alt="" height="600" class="img-fluid">
 
     </div>
   </div>  
@@ -200,7 +210,7 @@
           </div>
     </div>
     <div class="col-md-12 col-lg-6">
-      <img src="assets/img/team1.JPG" alt="" height="600" class="img-fluid">
+      <img src="img/team1.JPG" alt="" height="600" class="img-fluid">
 
     </div>
 
@@ -216,7 +226,7 @@
               <h1 class="text-center  myfocus" >Our services</h1>
               <div class="card-deck mx-5 mb-4">
                   <div class="card">
-                    <img class="card-img-top" src="assets/img/courtroom.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/courtroom.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title edu">COMMERCIAL AND CORPORATE PRACTICE</h4>
                       <p class="card-text text-justify">The Corporate and Commercial Practice Unit of our firm falls at the heart of our
@@ -240,7 +250,7 @@
             
                   </div>
                   <div class="card">
-                    <img class="card-img-top" src="assets/img/immigration1.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="img/immigration1.jpg" alt="Card image cap">
                     <div class="card-body">
                       <h4 class="card-title">IMMIGRATION CONSULTANCY SERVICES</h4>
                       <p class="card-text text-justify">We provide one of the most comprehensive immigration law services in Nigeria. 
@@ -259,7 +269,7 @@
                   <!-- 2 card section -->
                 <div class="card-deck mx-5 mb-4">
                   <div class="card">
-                      <img class="card-img-top" src="assets/img/int.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="img/int.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h4 class="card-title">INTELLECTUAL PROPERTY</h4>
                         <p class="card-text text-justify">In a dynamic commercial landscape with ever-expanding technological horizons, it 
@@ -273,7 +283,7 @@
                     </div>
             
                     <div class="card">
-                      <img class="card-img-top" src="assets/img/shipping2.jpg" alt="Card image cap">
+                      <img class="card-img-top" src="img/shipping2.jpg" alt="Card image cap">
                       <div class="card-body">
                         <h4 class="card-title">MARITIME AND ADMIRALTY SERVICES</h4>
                         <p class="card-text text-justify">Considering the various international laws and regulations, including 
@@ -288,87 +298,100 @@
                     </div>
                 </div>    
                   <!-- 2 card section ends here-->
-            
-                  <!-- Social media links  -->
-                  <div>
-                    <hr class="my-4">
-                  </div>
-                      <div class="container-fluid padding mt-4">
-                        <div class="row text-center padding">
-                           <div class="col-12 mt-4">
-                              <h2>Connect</h2>
-                           </div>
-                           <div class="col-12 social padding mt-4">
-                             <a href="#"><i class="fab fa-facebook"></i></a>
-                             <a href="#"><i class="fab fa-twitter"></i></a>
-                             <a href="#"><i class="fab fa-instagram"></i></a>
-                             <a href="#"><i class="fab fa-youtube"></i></a>
-                           </div>
-                        </div>
-                      </div>
-                  <!-- Social media links end here -->
-            
-                   <!--Footer-->
-                   <footer id="foota">
-                     <div class="container-fluid padding">
-                       <div class="row text-center">
-                         <div class="col-md-4">
-                           <img src="" alt="Bethany logo">
-                           <hr class="light">
-                           <p>080555555555</p>
-                           <p>email@email.com</p>
-                           <p>Lagos office address</p>
-                         </div>
-                         <div class="col-md-4">
-                             <hr class="light">
-                             <h5>Office hours</h5>
-                             <hr class="light">
-                             <p>Monday:9am-5pm</p>
-                             <p>Saturday:10am-2pm</p>
-                             <p>Sunday: Closed</p>
-                           </div>
-                           <div class="col-md-4">
-                               <hr class="light">
-                               <h5>Portharcourt office</h5>
-                               <hr class="light">
-                               <p>No.31 Igboukwu close</p>
-                               <p>D-line Portharcourt</p>
-                               <p>Rivers state Nigeria</p>
-                           </div>
-                           <div class="col-12">
-                             <hr class="light-100">
-                             <h5>&copy; tannonweb.com</h5>
-               
-                           </div>
-                       </div>
-                     </div>
-                   </footer>  
-            
-                  <script src="assets/js/jquery-3.3.1.js"></script>
-                  <script src="assets/js/jquery-ui.min.js"></script>
-                  <script src="assets/js/popper.min.js"></script>
-                  <script src="assets/js/bootstrap.js"></script>
-                  <script src="assets/js/wow.min.js"></script>
-            
-                  
-                  <script src="assets/js/main.js"></script>
-            
-                  <script >
-                    new   WOW().init();
-                   </script>
-            
-                <script>
-            
-                    $(document).ready(function(){
-            
-                        $('#accordion').accordion();
-            
-                        $('#sortable').sortable();
-            
-                        $('#datepicker').datepicker();
-            
-                    })
-                
-                </script>
-   </body>
+            <!-- Social media links  -->
+ <div>
+        <hr class="my-4">
+      </div>
+          <div class="container-fluid padding mt-4">
+            <div class="row text-center padding">
+               <div class="col-12 mt-4">
+                  <h2>Connect</h2>
+               </div>
+               <div class="col-12 social padding mt-4">
+                 <a href="#"><i class="fab fa-facebook"></i></a>
+                 <a href="#"><i class="fab fa-twitter"></i></a>
+                 <a href="#"><i class="fab fa-instagram"></i></a>
+                 <a href="#"><i class="fab fa-youtube"></i></a>
+               </div>
+            </div>
+          </div>
+      <!-- Social media links end here -->
+
+       <!--Footer-->
+       <footer id="foota">
+         <div class="container-fluid padding">
+           <div class="row text-center">
+             <div class="col-md-4">
+               <img src="" alt="Bethany logo">
+               <hr class="light">
+               <p>080555555555</p>
+               <p>email@email.com</p>
+               <p>Lagos office address</p>
+             </div>
+             <div class="col-md-4">
+                 <hr class="light">
+                 <h5>Office hours</h5>
+                 <hr class="light">
+                 <p>Monday:9am-5pm</p>
+                 <p>Saturday:10am-2pm</p>
+                 <p>Sunday: Closed</p>
+               </div>
+               <div class="col-md-4">
+                   <hr class="light">
+                   <h5>Portharcourt office</h5>
+                   <hr class="light">
+                   <p>No.31 Igboukwu close</p>
+                   <p>D-line Portharcourt</p>
+                   <p>Rivers state Nigeria</p>
+               </div>
+               <div class="col-12">
+                 <hr class="light-100">
+                 <h5>&copy; tannonweb.com</h5>
+   
+               </div>
+           </div>
+         </div>
+       </footer>  
+
+      <script src="js/jquery-3.3.1.js"></script>
+      <script src="js/jquery-ui.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/wow.min.js"></script>
+
+      
+      <script src="assets/js/main.js"></script>
+
+      <script >
+        new   WOW().init();
+       </script>
+
+    <script>
+
+        $(document).ready(function(){
+
+            $('#accordion').accordion();
+
+            $('#sortable').sortable();
+
+            $('#datepicker').datepicker();
+
+        })
+    
+    </script>
+    <script>
+          $(window).on('scroll', function(){
+
+               if($(window).scrollTop()){
+
+                 $('nav').addClass('fixed-top');
+               }
+                 else {
+                   $('nav').removeClass('fixed-top');
+                 }
+          })
+     
+    </script>
+    
+  </body>
 </html>

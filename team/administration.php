@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../assets/css/bootstrap.css">
-    <link rel="stylesheet" href="../assets/css/jquery-ui.min.css">
-    <link rel="stylesheet" href="../assets/css/animate.min.css">
-    <link rel="stylesheet" href="../assets/css/all.css">
-    <link rel="stylesheet" href="../assets/css/fontawesome.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../css/animate.min.css">
+    <link rel="stylesheet" href="../css/all.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Bethany Law & Partners | Practice</title>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light color2 fixed-top">
-        <a class="navbar-brand" href="../index.html">
+        <a class="navbar-brand" href="../index.php">
             <i class="fa fa-balance-scale fa-2x color1"></i>
             <!-- <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""> -->
         </a>
@@ -26,40 +26,39 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
             <li class="nav-item mx-3 active">
-                <a class="nav-link lead color1" href="../index.html">Home</a>
+                <a class="nav-link lead color1" href="../index.php">Home</a>
             </li>
             <li class="nav-item mx-3 dropdown">
               <a class="nav-link lead color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Our Team
               </a>
               <div class="dropdown-menu color2">
-                <a class="dropdown-item color1" href="../team/administration.html">Administration</a>
+                <a class="dropdown-item color1" href="administration.php">Administration</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item color1" href="../team/counsel.html">Counsel</a>
+                <a class="dropdown-item color1" href="counsel.php">Counsel</a>
               </div>
             </li>
             <li class="nav-item mx-3">
                 <a class="nav-link lead color1" href="#">Careers</a>
             </li>
             <li class="nav-item mx-3">
-                <a class="nav-link lead color1" href="../about.html">About Us</a>
+                <a class="nav-link lead color1" href="../about.php">About Us</a>
             </li>
             <li class="nav-item mx-3 dropdown">
                 <a class="nav-link lead color1 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Practice
                 </a>
                 <div class="dropdown-menu color2">
-                    <a class="dropdown-item color1" href="commercial_and_corporate_practice.html">Commercial and Corporate Practice</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item color1" href="general_civil_litigation.html">General Civil Litigation</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item color1" href="immigration_consultancy_services.html">Immigration Consultancy Services</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item color1" href="intellectual_property.html">Intellectual Property</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item color1" href="maritime_and_admiralty_services.html">Maritime and Admiralty Services</a>
+                <a class="dropdown-item color1" href="commercial_and_corporate_practice.php">Commercial and Corporate Practice</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item color1" href="general_civil_litigation.php">General Civil Litigation</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item color1" href="immigration_consultancy_services.php">Immigration Consultancy Services</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item color1" href="intellectual_property.php">Intellectual Property</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item color1" href="maritime_and_admiralty_services.php">Maritime and Admiralty Services</a>
                 </div>
-                
             </li>
             <li class="nav-item mx-3">
                 <a class="nav-link lead color1" href="#" data-toggle="tooltip" data-placement="top" title="News and Publications">Blog</a>
@@ -71,55 +70,66 @@
         </div>
     </nav>
         <!-- End nav -->
-    <section>
-        <div class="container mt-5">
-            <div class="row">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="../assets/img/bigstock-Decorative-Scales-Of-Justice-I-33449441.jpg" alt="Card image">
-                    <div class="card-img-overlay">
-                        <br><br><br><br><br><br>
-                        <h5 class="card-title display-4 text-center text-white">Immigration Consultancy Services</h5>
-                    </div>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-md-8 mt-4">
-                    <h2 class="font-weight-bold mb-4">Immigration Consultancy Services</h2>
-                    <p class="lead text-justify">We provide one of the most comprehensive immigration law services in Nigeria. 
-                        Our experts in this field have over 10 years practice experience of providing immigration and 
-                        nationality services, we offer clients a personal and friendly comprehensive solution to their 
-                        migration needs. With the benefit of our extensive experience, we are able to understand 
-                        your needs and advise on the prospects of success and potential pitfalls in pursuing an 
-                        application. Working together, we will use our experience to find a solution that matches 
-                        your needs wherever possible. Our services span to the following prevalent immigration issues: <br>
-                        <ul class="lead text-justify">
-                            <li>Expatriate Quota Applications: Most companies in Nigeria require certain foreign expertise 
-                            to execute their business operations.
-                            </li>
-                            <li>
-                            Business Permit: A business permit is required by a foreign company seeking to operate in Nigeria.
-                            </li>
-                            <li>
-                            Temporay Work Permit: This work permit is granted by the Immigration Service in Abuja for a duration 
-                            not exceeding 3 months.
-                            </li>
-                            <li>CERPAC (Combined Expatriate Residence Permit and Aliens Card) Regularization: 
-                            Monthly Returns and Deletion from quota
-                            </li>
-                            <li>
-                            Re-designation and Change of Employment.
-                            </li>
-                        </ul>
-                    </p>
 
+      <!-- Team -->
+      <br>
+      <div class="card mt-5">
+        <img class="card-img" src="../img/people/team1.jpg" alt="">
+      </div>
+
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card border border-dark">
+              <img src="../img/people/monica1.jpg" class="card-img">
+              <div class="card-body text-center">
+                <h4>Monica Ekeh</h4>
+                <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  Incidunt, facilis at saepe voluptates omnis aliquam, porro accusamus ullam 
+                  temporibus asperiores, a voluptatibus harum repudiandae suscipit. Laborum 
+                  ipsum ducimus odio quaerat et. Odit officia est reiciendis. Nobis iusto 
+                  eaque velit et.
+                </p>
+                <a href="monica_ekeh.php" class="lead text-italize text-center">View Full Bio</a>
+              </div>
+              <div class="card-footer">
+                <div class="btn-block btn bg-footer color1 text-center btn-lg py-3">
+                  <i class="mx-4 fa-lg fa fa-envelope"></i>
+                  <i class="mx-4 fa-lg fa fa-phone"></i>
+                  <i class="mx-4 fa-lg fab fa-linkedin"></i>
                 </div>
-                <div class="col-md-4"></div>
+              </div>
             </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card border border-dark">
+              <img src="../img/people/robina2.jpg" class="card-img">
+              <div class="card-body text-center">
+                <h4>Robina</h4>
+                <p class="text-justify">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                  Incidunt, facilis at saepe voluptates omnis aliquam, porro accusamus ullam 
+                  temporibus asperiores, a voluptatibus harum repudiandae suscipit. Laborum 
+                  ipsum ducimus odio quaerat et. Odit officia est reiciendis. Nobis iusto 
+                  eaque velit et.
+                </p>
+                <a href="robina.php" class="lead text-italize text-center">View Full Bio</a>
+              </div>
+              <div class="card-footer">
+                <div class="btn-block btn bg-footer color1 text-center btn-lg py-3">
+                  <i class="mx-4 fa-lg fa fa-envelope"></i>
+                  <i class="mx-4 fa-lg fa fa-phone"></i>
+                  <i class="mx-4 fa-lg fab fa-linkedin"></i>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </div>
+      
+      <!-- End team -->
 
-      <!-- Social media links  -->
-      <div>
+  <!-- Social media links  -->
+  <div>
         <hr class="my-4">
       </div>
           <div class="container-fluid padding mt-4">
@@ -196,3 +206,4 @@
     
 </body>
 </html>
+     

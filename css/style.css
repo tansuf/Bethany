@@ -3,7 +3,7 @@
 }
 
 .color2 {
-    background: rgb(25, 154, 206) !important;
+    background:  #37423e !important;
 }
 
 .color3 {
@@ -11,12 +11,17 @@
 }
 
 .social a{
-    font-size:4.5rem;
+    font-size:2.5rem;
     padding:3rem;
+}
+span a{
+    font-size:1.5rem;
+    padding:1rem;
 }
 
 .fa-facebook{
     color:#3b5998;
+    
 }
 
 .fa-instagram{
@@ -37,7 +42,7 @@
 }
 
 footer{
-    background-color: #3b5998;
+    background-color: #242e2a;
    
     color: white;
     padding-top:2rem;
