@@ -24,3 +24,23 @@ Robina is also an admin staff, in charge of front desk. Will get her full name l
  4. Remember the image changes to black and white and the new logo.
  5.The single bio pages for team members shouldn't have the team picture please.
  6. I have ssent him a mail for contents for other practice areas  
+
+13/11/2018:
+ 1. I found a way to make the links dynamic even with the includes.
+    Please study "$dir" from the code or get in touch for a full explanation
+    on how it works.
+    All links are now with reference to the root folder. No matter which folder you
+    are in, you'll write the links (href and src) as if you are in the same folder
+    as index.php.
+ 2. Like we earlier agreed, please don't style bootstrap or fontawesome classes.
+    I'll leave your styling until I run into any major issues.
+ 3. I've hugely repaired the file structure, there are reasons I did it the way
+    I initially did it.
+    Concerning the team file structure. I want it such that users will see
+    http://bethany.com/team/adminstration so they know they are under the team
+    category from the address bar OR http://bethany.com/adminstration/monika so
+    they instantly know from the address that monica is a member of the admin.
+    Hope you understand this.
+ 4. You are at liberty to either accept or reject the changes I have made, I will
+    leave the merging to you. Kindly get in touch if you need me to correct
+    anything else.

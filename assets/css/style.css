@@ -14,12 +14,12 @@
     font-size:2.5rem;
     padding:3rem;
 }
-span a{
+/* span a{
     font-size:1.5rem;
     padding:1rem;
-}
+} */
 
-.fa-facebook{
+/* .fa-facebook{
     color:#3b5998;
     
 }
@@ -39,7 +39,7 @@ span a{
 .fa-instagram:hover,
 .fa-youtube:hover{
     color:#d5d5d5;
-}
+} */
 
 footer{
     background-color: #242e2a;
@@ -138,7 +138,28 @@ hr .light-100{
     box-shadow: none !important;
 }
 
-.fab {
+/* .fab {
     animation-duration: 2s;
     animation-iteration-count: infinite;
+} */
+
+.bg-black {
+    background-color: #000;
+}
+
+.transparent {
+    color: transparent !important;
+}
+
+.fa-border {
+    border: 3px solid black;
+}
+
+.fa-margin {
+    margin-top: -3px;
+    margin-left: -0.5px;
+}
+
+a.social_link:hover {
+    color: black !important;
 }
