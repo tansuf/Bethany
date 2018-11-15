@@ -16,89 +16,117 @@
 ?>
       <!-- Slider starts here -->
       
-     <div class="container-fluid">
-         
-             
-          <div class="row">
-              
-            <div class="col-md-12">
-               
-                <div id="carouselExampleIndicators" class="carousel slide mt-2" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                      
-                    </ol>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="<?= $dir.'assets/img/immigration2.jpg' ?>" alt="First slide"  height="500">
-                        <div class="carousel-caption  d-md-block">
-                          
-                        <h1 class="display-2 text-white">Let Our Experience Be Your Guide.<br>&nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1>
-                          
-                        </div>
-                      </div>
-                      <div class="carousel-item ">
-                        <img class="d-block w-100" src="<?= $dir.'assets/img/Gavel-and-Scale.jpg' ?>" alt="Second slide"  height="500">
-                        <div class="carousel-caption  d-md-block">
-                          <h1 class="display-2 text-danger">Legal Insight.<br> Business Instinct.&nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1>
-                          
-                          
-                        </div>
-                      </div>
-                      <div class="carousel-item ">
-
-                         <div class="carousel-caption  d-md-block">
-                          <h1 class="display-2 text-white"> Industry focused.<br>&nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1>
-                          
-                          
-                        </div>
-                        <img class="d-block w-100" src="<?= $dir.'assets/img/shipping2.jpg' ?>" alt="Third slide"  height="500">
-                        
-                      </div>
-                      <div class="carousel-item ">
-                        <img class="d-block w-100" src="<?= $dir.'assets/img/business.jpg' ?>" alt="Third slide"  height="500">
-                        <div class="carousel-caption  d-md-block">
-                          <h1 class="display-2 text-warning"> Relationship driven.&nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-                            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </h1>
-                          
-                          
-                        </div>
-                      </div>
-                      
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
-                  </div>
-                </div> 
-            </div>  
+<div class="container mt-3 mt-md-5">
+  <div class="row">
+    <div class="col-md-12">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+          
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/immigration1.jpg' ?>" alt="First slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                Let Our Experience Be Your Guide
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/scale.jpg' ?>" alt="Second slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                Legal Insight
+                <br>
+                Business Instinct
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/shipping.jpg' ?>" alt="Third slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                Industry focused
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/small_business_legal_entities.jpg' ?>" alt="Third slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                Relationship driven
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/immigration2.jpg' ?>" alt="Third slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                ...
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/law_library.jpg' ?>" alt="Third slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                ...
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/law_office.jpg' ?>" alt="Third slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                ...
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/legal_officer.jpg' ?>" alt="Third slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                ...
+              </h1>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <img class="d-block w-100 img-fluid" src="<?= $dir.'assets/img/slider/scales_of_justice.jpg' ?>" alt="Third slide"  height="500">
+            <div class="carousel-caption">
+              <h1 class="display-2 text-white d-none d-lg-block">
+                ...
+              </h1>
+            </div>
+          </div>
         </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div> 
+</div>  
 
       <!-- Slider ends here -->
 
       <!-- Jumbotron starts here -->
 
-      <hr class="my-4">
-      <hr class="my-4">
-   <div class="container-fluid padding mt-5">
-     <div class="row padding mr-5 ml-5">
+   <div class="container padding mt-3 mt-md-5">
+     <div class="row">
         <div class="col-md-12 col-lg-6">
             <div class="jumbotron">
                 <h1 class="display-4">From the desk of the managing partner</h1>
@@ -135,7 +163,7 @@
     <h1 class="text-center  myfocus" >Our services</h1>
     <div class="card-deck mx-5 mb-4">
       <div class="card">
-        <img class="card-img-top" src="<?= $dir.'assets/img/courtroom.jpg' ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?= $dir.'assets/img/bg/law_office.jpg' ?>" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title edu">COMMERCIAL AND CORPORATE PRACTICE</h4>
           <p class="card-text text-justify">The Corporate and Commercial Practice Unit of our firm falls at the heart of our
@@ -147,7 +175,7 @@
 
       </div>
       <div class="card">
-        <img class="card-img-top" src="<?= $dir.'assets/img/bigstock-Decorative-Scales-Of-Justice-I-33449441.jpg' ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?= $dir.'assets/img/bg/scale.jpg' ?>" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">GENERAL CIVIL LITIGATION</h4>
           <p class="card-text text-justify">Keeping in mind that disputes between individuals, firms or companies can occur in a variety 
@@ -159,7 +187,7 @@
 
       </div>
       <div class="card">
-        <img class="card-img-top" src="<?= $dir.'assets/img/immigration1.jpg' ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?= $dir.'assets/img/bg/immigration1.jpg' ?>" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">IMMIGRATION CONSULTANCY SERVICES</h4>
           <p class="card-text text-justify">We provide one of the most comprehensive immigration law services in Nigeria. 
@@ -178,7 +206,7 @@
       <!-- 2 card section -->
     <div class="card-deck mx-5 mb-4">
       <div class="card">
-        <img class="card-img-top" src="<?= $dir.'assets/img/int.jpg' ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?= $dir.'assets/img/bg/law_library.jpg' ?>" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">INTELLECTUAL PROPERTY</h4>
           <p class="card-text text-justify">In a dynamic commercial landscape with ever-expanding technological horizons, it 
@@ -192,7 +220,7 @@
       </div>
 
       <div class="card">
-        <img class="card-img-top" src="<?= $dir.'assets/img/shipping2.jpg' ?>" alt="Card image cap">
+        <img class="card-img-top" src="<?= $dir.'assets/img/bg/shipping.jpg' ?>" alt="Card image cap">
         <div class="card-body">
           <h4 class="card-title">MARITIME AND ADMIRALTY SERVICES</h4>
           <p class="card-text text-justify">Considering the various international laws and regulations, including 
@@ -209,25 +237,7 @@
     <!-- 2 card section ends here-->
       
 
-    <!-- Social media links  -->
-    <div>
-      <hr class="my-4">
-    </div>
-
-    <div class="container-fluid padding mt-4">
-      <div class="row text-center padding">
-          <div class="col-12 mt-4">
-            <h2>Connect</h2>
-          </div>
-          <div class="col-12 social padding mt-4">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-          </div>
-      </div>
-    </div>
-    <!-- Social media links end here -->
+    
 
     <?php
       include "partials/footer.php";

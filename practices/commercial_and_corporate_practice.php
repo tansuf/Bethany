@@ -13,17 +13,15 @@
 ?>
 
     <section>
-        <div class="container mt-5">
+        <div class="container mt-3 mt-md-5">
             <div class="row">
-                <div class="card bg-dark text-white">
-                    <img class="card-img" src="<?= $dir.'assets/img/banner3.jpg' ?>" alt="Card image">
-                    <div class="card-img-overlay">
-                        <br><br><br><br><br><br>
-                        <h5 class="card-title display-4 text-center text-white">Commercial and Corporate Practice</h5>
+                <div class="col-md-12">
+                    <div class="card bg-dark text-white">
+                        <img class="card-img img-fluid" src="<?= $dir.'assets/img/slider/scale.jpg' ?>" alt="Card image">
                     </div>
                 </div>
             </div>
-            <div class="row mt-4">
+            <div class="row mt-2">
                 <div class="col-md-8 mt-4">
                     <h2 class="font-weight-bold mb-4">Commercial and Corporate Practice</h2>
                     <p class="lead text-justify">The Corporate and Commercial Practice Unit of our Firm falls at the heart of our
@@ -48,24 +46,6 @@
         </div>
     </section>
 
-      <!-- Social media links  -->
-      <div>
-        <hr class="my-4">
-      </div>
-          <div class="container-fluid padding mt-4">
-            <div class="row text-center padding">
-               <div class="col-12 mt-4">
-                  <h2>Connect</h2>
-               </div>
-               <div class="col-12 social padding mt-4">
-                 <a href="#"><i class="fab fa-facebook"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-            </div>
-          </div>
-        <!-- Social media links end here -->
 
         <!--Footer-->
         <?php

@@ -7,13 +7,7 @@
   include $dir."partials/head.php";
 ?>
 <body>
-  <div class=" container mt-4 ml-4 mb-4">
-    <div class="row ">
-      <div class="col-md-4 offset-md-1">
-        <img src="<?= $dir.'img/bethanylogo.png' ?>" alt="">
-      </div>
-    </div>
-  </div>
+
 
 
 <?php
@@ -37,7 +31,7 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <img class="d-block w-100" src="<?= $dir.'assets/img/immigration2.jpg' ?>" alt="First slide"  height="600">
-                      <div class="carousel-caption  d-md-block">
+                      <div class="carousel-caption d-lg-block">
                         <h1 class="display-2">Let Our Experience be Your Guide</h1>
                         
                         
@@ -45,7 +39,7 @@
                     </div>
                     <div class="carousel-item ">
                       <img class="d-block w-100" src="<?= $dir.'assets/img/Gavel-and-Scale.jpg' ?>" alt="Second slide"  height="600">
-                      <div class="carousel-caption  d-md-block">
+                      <div class="carousel-caption d-lg-block">
                         <h1 class="display-2 text-danger">Legal Insight. Business Instinct. </h1>
                         
                         
@@ -53,7 +47,7 @@
                     </div>
                     <div class="carousel-item ">
                       <img class="d-block w-100" src="<?= $dir.'assets/img/shipping2.jpg' ?>" alt="Third slide"  height="600">
-                      <div class="carousel-caption  d-md-block">
+                      <div class="carousel-caption d-lg-block">
                         <h1 class="display-2 text-white"> Industry focused. </h1>
                         
                         
@@ -61,7 +55,7 @@
                     </div>
                     <div class="carousel-item ">
                       <img class="d-block w-100" src="<?= $dir.'assets/img/business.jpg' ?>" alt="Third slide"  height="600">
-                      <div class="carousel-caption  d-md-block">
+                      <div class="carousel-caption d-lg-block">
                         <h1 class="display-2 text-warning"> Relationship driven. </h1>
                       </div>
                     </div>
@@ -231,24 +225,7 @@
                     </div>
                 </div>    
                   <!-- 2 card section ends here-->
-            <!-- Social media links  -->
- <div>
-        <hr class="my-4">
-      </div>
-          <div class="container-fluid padding mt-4">
-            <div class="row text-center padding">
-               <div class="col-12 mt-4">
-                  <h2>Connect</h2>
-               </div>
-               <div class="col-12 social padding mt-4">
-                 <a href="#"><i class="fab fa-facebook"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-            </div>
-          </div>
-      <!-- Social media links end here -->
+
 
       <!--Footer-->
       <?php

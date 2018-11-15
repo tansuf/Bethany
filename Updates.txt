@@ -44,3 +44,15 @@ Robina is also an admin staff, in charge of front desk. Will get her full name l
  4. You are at liberty to either accept or reject the changes I have made, I will
     leave the merging to you. Kindly get in touch if you need me to correct
     anything else.
+ 5. More work on the navbar and banner
+ 6. Turn out the fontawesome styling caused me issues, I commented it out and 
+    may end up removing them before pushing
+ 7. The social media links just before the footer is now included in the footer
+    partial. The icons now animate on mouseover like you requested
+ 8. I made some images into the dark grayscale duotone you suggested. If you approve,
+    I'll apply to other images.
+ 9. I've factored mobile responsiveness to the member pages, works fine now.
+ 10. I think I should push now.
+ 11. We're starting to have duplicate and redundant files (all thanks to me), I'll
+     make sure to clean that up just before deployment.
+

@@ -1,9 +1,14 @@
 
 <!--navigation-->
-<nav class="navbar navbar-expand-lg navbar-light color2">
-  <span class="navbar-brand">
+<nav class="navbar navbar-expand-lg navbar-light color2 py-1 my-0">
+  <a href="<?= $dir.'index.php' ?>" class="icon_link p-0 m-0 d-inline mr-md-3">
+    <span class="p-0 m-0">
+      <img src="<?= $dir.'assets/img/logo/bethany_icon.png' ?>" class="w-60" alt="">
+    </span>
+  </a>
+  <span class="navbar-brand my-0 py-0">
     <a href="https://facebook.com" class="social_link">
-      <span class="fa-stack rounded fa-border pt-0">
+      <span class="fa-stack rounded fa-border p-0">
         <i class="fas fa-square fa-stack-2x transparent fa-margin"></i>
         <i class="fab fa-facebook-f fa-stack-1x fa-inverse fa-margin"></i>
       </span>
@@ -26,10 +31,6 @@
         <i class="fab fa-youtube fa-stack-1x fa-inverse fa-margin"></i>
       </span>
     </a>
-      <!-- <a href="#"><i class="fab fa-facebook social-links"></i></a>
-      <a href="#"><i class="fab fa-twitter social-links"></i></a>
-      <a href="#"><i class="fab fa-instagram social-links"></i></a>
-      <a href="#"><i class="fab fa-youtube social-links"></i></a> -->
   </span>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>

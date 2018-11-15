@@ -1,3 +1,43 @@
+<!-- Social media links  -->
+<div>
+  <hr class="my-4">
+</div>
+
+<div class="container-fluid padding mt-4">
+  <div class="row text-center padding">
+    <div class="col-12 mt-4">
+      <h2>Connect</h2>
+    </div>
+    <div class="col-12 mt-4 mb-4">
+      <a href="#" class="text-color2 social_link">
+        <span class="fa-stack fa-3x">
+          <i class="fas fa-stack-2x fa-circle"></i>
+          <i class="fab fa-facebook fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <a href="#" class="text-color2 social_link">
+        <span class="fa-stack fa-3x">
+          <i class="fas fa-stack-2x fa-circle"></i>
+          <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <a href="#" class="text-color2 social_link">
+        <span class="fa-stack fa-3x">
+          <i class="fas fa-stack-2x fa-circle"></i>
+          <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+      <a href="#" class="text-color2 social_link">
+        <span class="fa-stack fa-3x">
+          <i class="fas fa-stack-2x fa-circle"></i>
+          <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+<!-- Social media links end here -->
+
 <footer id="foota">
   <div class="container-fluid padding">
     <div class="row text-center">

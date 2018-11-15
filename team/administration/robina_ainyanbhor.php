@@ -14,7 +14,7 @@
 ?>
 
       <!-- Team -->
-      <div class="container mt-5">
+      <div class="container mt-3 mt-md-5">
             <div class="row">
                 <div class="col-md-12 pr-0">
                     <nav aria-label="breadcrumb">
@@ -140,16 +140,15 @@
                 </div>
                 <!-- col-md-8 end -->
                 <div class="col-md-4">
-                    <div class="row py-3 bg-footer text-white rounded text-center">
-                        <div class="col-md-1"></div>
-                        <h3>Other Admin Members</h3>
+                    <div class="row py-3 color2 text-white rounded text-center">
+                        <h3 class="mx-auto">Other Admin Members</h3>
                     </div>
                     <div class="row align-middle mt-4">
-                        <div class="col-md-3 offset-md-1 px-0">
+                        <div class="col-3 col-md-3 offset-md-1 px-0 pl-2">
                             <img src="<?= $dir.'assets/img/people/monica1.jpg' ?>" alt="" class="rounded-circle img-fluid">
                         </div>
-                        <div class="col-md-8">
-                            <h4 class="font-weight-bold mt-2 mb-0">Monica Ekeh</h4>
+                        <div class="col-8 col-md-8">
+                            <h5 class="font-weight-bold mt-2 mb-0">Monica Ekeh</h5>
                             <p class="my-0">Personal Assistant<br>
                                 <a href="<?= $dir.'team/administration/monica_ekeh.php' ?>" class="text-info">View Full Bio</a>
                             </p>
@@ -161,24 +160,6 @@
       
       <!-- End team -->
 
-  <!-- Social media links  -->
-  <div>
-        <hr class="my-4">
-      </div>
-          <div class="container-fluid padding mt-4">
-            <div class="row text-center padding">
-               <div class="col-12 mt-4">
-                  <h2>Connect</h2>
-               </div>
-               <div class="col-12 social padding mt-4">
-                 <a href="#"><i class="fab fa-facebook"></i></a>
-                 <a href="#"><i class="fab fa-twitter"></i></a>
-                 <a href="#"><i class="fab fa-instagram"></i></a>
-                 <a href="#"><i class="fab fa-youtube"></i></a>
-               </div>
-            </div>
-          </div>
-        <!-- Social media links end here -->
 
         <!--Footer-->
         <?php
